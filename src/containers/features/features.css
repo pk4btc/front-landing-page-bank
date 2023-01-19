@@ -1,0 +1,44 @@
+.cont-feature{
+    display: flex;
+    flex: row;  
+    padding: 5rem;
+
+    
+}
+
+.cont-feature-heading *{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    /* or 77px */
+    
+}
+
+.cont-feature-heading > a{
+}
+.cont-feature-heading > button{
+    border: none;    cursor: pointer;
+    padding-top: 10px;
+    padding: 2.2rem;
+    width: 70%;
+    color: rgb(35, 34, 34);
+    border-radius:  5px;
+    margin-left: 1rem;
+    background: var(--kolor);
+    margin: 0 auto;
+   
+}
+
+
+div.cont-feature-image-circle > div > img{
+    width: 100%;
+}

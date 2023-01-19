@@ -1,0 +1,33 @@
+.gpt__features_container{
+    color:whitesmoke;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-left: 1rem;
+}
+
+.gpt__features_container h1{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.gpt__features_container-content a{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: rgba(255, 255, 255, 0.7);
+    
+
+}

@@ -1,0 +1,72 @@
+/* 
+one container has display flex
+pozycjonuje w main axis --->n
+a nie na sobie, 
+
+mozmey zmienci main axes na vertical | pion
+flex-directio:row
+justify-coentent: wedlug main axis
+align-items: pionowo align 
+
+flex-wrawp: items nei probouja sie scicnac
+sa rozdzielane w linie
+align-content w pionie ustawia
+1 grow 2 shrink 3 basis
+flex:1 rosnie gdy jest miejsce 0 0
+align-self: indiwidual
+*/ /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+
+:root{--kolor1:radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)}
+
+
+.gpt__brand , .gpt__numbers{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    justify-content: space-around;
+
+    
+}
+
+.gpt__brand div{
+    flex-direction: row;
+    margin:1rem;
+    display: flex;
+    
+}
+
+.gpt__brand div > img{
+    max-width: 120px;
+
+}
+
+
+.gpt__numbers div{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    margin:1rem;
+}
+.gpt__numbers div > a{padding:0.5rem;display: flex; }
+.gpt__numbers-a-text{background:var(--kolor1);background-clip: text;
+    align-items:center;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;}
+
+.gpt__numbers div > a{padding:0.5rem }
+.gpt__numbers-a-number{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40.8925px;
+    line-height: 130%;}
+
+@media only screen and(max-width:800px){
+        .gpt__numbers .gpt__numbers-a-number{
+            font-size: 10px;
+            text-align: center;
+            align-items: center;
+        }
+    }
+

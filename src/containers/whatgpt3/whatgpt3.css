@@ -1,0 +1,35 @@
+
+.whatgpt3{
+    display: flex;
+    background-color: black;
+    padding:5rem;
+    color: whitesmoke;
+}
+.gpt3__whatpgt3-heading{
+    
+    display: flex;
+
+
+}
+
+.gpt3__whatpgt3-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.gradient-text{
+    padding-bottom: 10px;
+}
+
+.gradient-text >a {margin: 0px;
+    text-align: left;
+
+}
+
+.gpt3__whatgpt3_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}

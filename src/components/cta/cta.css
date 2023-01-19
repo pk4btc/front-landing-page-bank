@@ -1,0 +1,36 @@
+.cta-container{
+    background: black;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.cta-container-item{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+
+}
+.cta-container > .cta-container-item > h1,a{
+    text-align: center;
+    margin: 1rem;;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cta-container-button button{
+    border: none;
+    padding: 1.2rem;
+   color:blanchedalmond;
+    border-radius: 5px;
+    background: var(--kolor);
+    margin: 0 auto;
+    cursor: pointer;
+
+}

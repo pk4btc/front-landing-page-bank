@@ -1,0 +1,128 @@
+
+
+.gpt3__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 6rem;
+    
+
+
+}
+.gpt3__navbar-links{
+    flex:1; /* shorthand skrot for 3in1 flex-grow, flex-shrink and flex-basis combined. First is neccesery */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.gpt3__navbar-links_logo{
+    margin-right:2rem;
+}
+.gpt3__navbar-links_logo img{ 
+    width: 40%; height: 20%;
+}
+.gpt3__navbar-links_contaier{
+     display:flex;flex-direction:row;
+      text-decoration: none;}
+
+.gpt3__navbar-links_contaier p, .gpt3__navbar-sign p, .gpt3__navbar-menu_container p{
+    color:#fff;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+font-size: 1.15rem;
+line-height:1.5rem;
+text-transform: capitalize; 
+margin: 0 1rem;
+ cursor: pointer;text-decoration: none;}
+a{text-decoration: none;color:#fff}
+
+.gpt3__navbar-button button{
+    margin-left: 1rem;
+    border:1px solid #fff;
+    border-radius:0.2rem;
+    font-size: 1.05rem;
+
+    color: #fff;
+    padding: 0.30rem 0.7rem;
+    font-weight: 700;
+    line-height: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+
+}
+.gpt3__navbar-button{
+    display: flex;
+    justify-content: end;align-items: center;}
+
+.gpt3__navbar-menu{
+    margin-left: 1 rem;
+    display: none;
+    position: relative;
+}
+.gpt3__navbar-menu svg{
+    cursor: pointer;
+
+
+}
+.gpt3__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+    ;flex-direction: column;
+
+    text-align: end;
+    background: black ;
+    padding: 2rem;
+    position: absolute;
+    top:40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 black;
+}
+
+.gpt3__navbar-menu_container a{
+    margin:1rem 0;
+
+}
+
+.gpt3__navbar-menu-container-links-sign{display: none;}
+
+
+
+/* when is less then 1000 do this */
+@media screen and (max-width:1000px){
+/*bigest main conatienr with menu */
+.gpt3__navbar-links_contaier{
+    display: none;
+}
+
+.gpt3__navbar-menu{
+    display: flex;
+}
+}
+@media screen and(max-width:700px){
+.gpt3__navbar{
+    padding: 2rem 5rem;
+    
+    
+}
+.closexx{display: none;}
+
+
+}
+
+@media screen and(max-width:500px){
+    .gpt3__navbar{
+        padding: 2rem 5rem;
+        
+    }
+    #elo{display: none;}
+    #root > div > div.grad-bg > div.gpt3__navbar > div > div.gpt3__navbar-button{
+      
+        display: none!important;
+    }
+    }
+
+

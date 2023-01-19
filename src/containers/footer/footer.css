@@ -1,0 +1,27 @@
+.footer-conatiner{
+    display: flex;
+    padding: 3rem;
+    background: radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+}
+.footer-left{
+    flex:1;
+
+}
+.footer-right{
+    flex:1;
+
+    display: flex;
+
+}
+.f-column{
+    display: flex;
+    flex-direction: column;
+}
+.f-column > h3{
+text-align: center;
+font-weight: 600;
+
+}.f-column > a{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    }

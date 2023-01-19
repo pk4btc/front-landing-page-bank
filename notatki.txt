@@ -1,0 +1,3 @@
+//install create app
+npx create-app ./
+

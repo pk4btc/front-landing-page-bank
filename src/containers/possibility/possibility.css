@@ -1,0 +1,32 @@
+.section-possibility{
+    background:black;
+    color: black;
+    display: flex
+;}
+.section-posibility-container{
+display:flex;
+padding:5rem;
+padding:4rem 0px 4rem 0rem;
+
+
+}
+.section-possibility .gpt__features_container-title > h1{
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    /* or 32px */
+    padding: 0.3rem;
+    
+   
+    
+    }
+
+.gpt__features_container{
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    margin:1rem;    border-radius: 20px;}
+    .gpt__features_container-content{
+        display: flex;
+        justify-content: end;
+    }

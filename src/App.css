@@ -1,0 +1,78 @@
+    /*how a width and h are caluated / , but do not include the margin.*/
+  *{ box-sizing:border-box;
+    padding:0;
+    margin:0px;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background: var(--color-bg)     /* defaining local var to use in file*/
+
+  }
+
+  /* from angrytools.com*/
+  .grad-bg{
+                  
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 54% 55%, rgba(113, 15, 100, 1) 3%, rgba(39, 202, 250, 1) 46%, rgba(0, 188, 212, 1) 58%, rgba(113, 15, 100, 1) 95%, rgba(113, 15, 100, 1) 100%);
+
+}
+.grad-text{
+  background: var(--gradient-text);
+  background-clip: text; /* where to apply Color or image here only with in text letters  */ 
+}
+
+.sec-padding{
+  padding: 4rem 6rem;
+}
+
+.sec-margin{
+  margin: 4rem 6rem;
+}
+
+/* from animista.net */
+.scale-down-center {
+	-webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+
+/** 16px = 1rem (base) applying to its parents depending on parrent poperty
+**/
+@media screen and(max-width:700px){
+  .sec-padding{padding: 4rem;}
+  .sec-margin{margin: 4rem;}
+}@media screen and(max-width:550px){
+  .sec-padding{padding: 2rem;}
+  .sec-margin{margin: 2rem;}
+}
